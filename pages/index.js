@@ -1,22 +1,13 @@
 import Link from "next/link";
+import HomePage from "../components/HomePage";
 import Layout from "../components/layout";
-
 
 const IndexPage = () => {
   return (
-    
     <Layout title="Collyn Godlewski">
-      <p>Meow Meow Meow</p>
-
-
-
-
-     </Layout>
-   
-  
-  
-  
+      <HomePage />
+    </Layout>
   );
-}
+};
 
 export default IndexPage;
