@@ -8,10 +8,10 @@ const HomePage = () => {
       <Spacer y={10} />
 
       <Row justify="center" align="center">
-        <Text size={24} color="black" css={{ m: 0 }}>
+        <Text size={30} color="black" css={{ m: 0 }}>
           <TypewriterComponent
             options={{
-              strings: ["Hello World"],
+              strings: ["Hello World!","Full Stack Web Developer"],
               autoStart: true,
               loop: true,
             }}
@@ -19,11 +19,11 @@ const HomePage = () => {
         </Text>
       </Row>
       <Spacer y={4} />
-      <Row justify="center" align="center">
+      {/* <Row justify="center" align="center">
       <Text size={28} color="black" css={{ m: 0 }}>
         Full Stack Web Developer
       </Text>
-      </Row>
+      </Row> */}
     </Container>
   );
 };
