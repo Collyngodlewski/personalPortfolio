@@ -10,7 +10,7 @@ const NavBar = () => {
   ];
 
   return (
-    <Navbar isBordered={isDark} variant="sticky">
+    <Navbar isBordered={isDark} variant="floating">
       <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
       <Navbar.Brand>
         <Text size={32}>Collyn Godlewski</Text>
