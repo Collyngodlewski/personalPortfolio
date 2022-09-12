@@ -22,7 +22,7 @@ const NavBar = () => {
         variant="highlight"
         
       >
-        <Navbar.Link href="/"><Text alignContent="center" size={32}>Home</Text></Navbar.Link>
+        <Navbar.Link href="/">Home</Navbar.Link>
         <Navbar.Link href="/projects">Projects</Navbar.Link>
         <Navbar.Link href="/resume">Resume</Navbar.Link>
         <Navbar.Link href="/contact">Contact</Navbar.Link>
