@@ -17,9 +17,9 @@ const NavBar = () => {
       </Navbar.Brand>
       <Navbar.Content
         enableCursorHighlight
-        activeColor="secondary"
+        activeColor="primary"
         hideIn="xs"
-        variant="highlight"
+        variant="underline"
         
       >
         <Navbar.Link href="/">Home</Navbar.Link>
