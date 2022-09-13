@@ -13,31 +13,47 @@ import { ProjectCard } from "./ProjectCard.js";
 
 function ProjectsPage() {
   return (
-    <Grid.Container gap={2} display="flex" justify="space-evenly"  wrap="wrap" >
+    <Grid.Container gap={2} display="flex" justify="space-evenly" wrap="wrap">
       <Col>
-      <Row justify="center">
-      
-      <Grid xs={12} sm={6} lg={2}>
-      <ProjectCard/>
-      </Grid>
-      <Grid xs={12} sm={6} lg={2}>
-      <ProjectCard />
-      </Grid>
-      </Row>
+        <Row justify="center">
+          <Grid xs={12} sm={6} lg={2}>
+            <ProjectCard />
+          </Grid>
+          <Grid xs={12} sm={6} lg={2}>
+            <ProjectCard />
+          </Grid>
+        </Row>
       </Col>
       <Col>
-      <Row justify="center">
-      
-      <Grid xs={12} sm={6} lg={2}>
-      <ProjectCard/>
-      </Grid>
-      <Grid xs={12} sm={6} lg={2}>
-      <ProjectCard />
-      </Grid>
-      </Row>
+        <Row justify="center">
+          <Grid xs={12} sm={6} lg={2}>
+            <ProjectCard />
+          </Grid>
+          <Grid xs={12} sm={6} lg={2}>
+            <ProjectCard />
+          </Grid>
+        </Row>
       </Col>
-     
-   
+      <Col>
+        <Row justify="center">
+          <Grid xs={12} sm={6} lg={2}>
+            <ProjectCard />
+          </Grid>
+          <Grid xs={12} sm={6} lg={2}>
+            <ProjectCard />
+          </Grid>
+        </Row>
+      </Col>
+      <Col>
+        <Row justify="center">
+          <Grid xs={12} sm={6} lg={2}>
+            <ProjectCard />
+          </Grid>
+          <Grid xs={12} sm={6} lg={2}>
+            <ProjectCard />
+          </Grid>
+        </Row>
+      </Col>
     </Grid.Container>
     // <Container gap={0}  display="flex"  >
     //   <Row >
@@ -86,7 +102,7 @@ function ProjectsPage() {
     //       </Card>
     //       </Col>
     //     </Row>
-  //   </Container>
+    //   </Container>
   );
 }
 
