@@ -13,7 +13,7 @@ const HomePage = () => {
         <Text size={30} color="black" css={{ m: 0 }}>
           <TypewriterComponent
             options={{
-              strings: ["Hello World!", "Full Stack Web Developer."],
+              strings: [ "Full Stack Web Developer.","Hello World!"],
               autoStart: true,
               loop: true,
             }}

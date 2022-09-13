@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
+import ProjectsPage from '../components/Projects'
 
 function Projects() {
   return (
     <Layout title="Projects">
-   <h1>Projects</h1>
+   <ProjectsPage />
     </Layout>
     
   )
