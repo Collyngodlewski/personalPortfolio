@@ -12,10 +12,10 @@ import React from "react";
 
 function ProjectsPage() {
   return (
-    <Grid.Container gap={2} justify="center">
-      <Row justify="space-evenly">
-        <Grid >
-          <Card isPressable isHoverable css={{ mw: "330px" }}>
+    <Grid.Container gap={1}  display="flex"  wrap="wrap" justify="space-around">
+  
+        <Grid sm={12} md={2}>
+          <Card isPressable isHoverable  css={{ mw: "330px" }}>
             <Card.Header>
               <Text b>Meow 1</Text>
             </Card.Header>
@@ -36,7 +36,7 @@ function ProjectsPage() {
             </Card.Footer>
           </Card>
         </Grid>
-        <Grid >
+        <Grid sm={12} md={2} >
           <Card isPressable isHoverable css={{ mw: "330px" }}>
             <Card.Header>
               <Text b>Meow 1</Text>
@@ -58,9 +58,9 @@ function ProjectsPage() {
             </Card.Footer>
           </Card>
         </Grid>
-      </Row>
-      <Row justify="space-evenly">
-        <Grid >
+    
+     
+        <Grid sm={12} md={2} >
           <Card isPressable isHoverable css={{ mw: "330px" }}>
             <Card.Header>
               <Text b>Meow 1</Text>
@@ -82,7 +82,7 @@ function ProjectsPage() {
             </Card.Footer>
           </Card>
         </Grid>
-        <Grid >
+        <Grid sm={12} md={2}>
           <Card isPressable isHoverable css={{ mw: "330px" }}>
             <Card.Header>
               <Text b>Meow 1</Text>
@@ -104,9 +104,9 @@ function ProjectsPage() {
             </Card.Footer>
           </Card>
         </Grid>
-      </Row>
-      <Row justify="space-evenly">
-        <Grid >
+  
+     
+        <Grid sm={12} md={2}>
           <Card isPressable isHoverable css={{ mw: "330px" }}>
             <Card.Header>
               <Text b>Meow 1</Text>
@@ -128,7 +128,7 @@ function ProjectsPage() {
             </Card.Footer>
           </Card>
         </Grid>
-        <Grid >
+        <Grid sm={12} md={2}>
           <Card isPressable isHoverable css={{ mw: "330px" }}>
             <Card.Header>
               <Text b>Meow 1</Text>
@@ -150,7 +150,7 @@ function ProjectsPage() {
             </Card.Footer>
           </Card>
         </Grid>
-      </Row>
+     
      
     </Grid.Container>
   );
