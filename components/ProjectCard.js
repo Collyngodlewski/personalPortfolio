@@ -19,7 +19,7 @@ export const ProjectCard = () => (
       </Col>
     </Card.Header>
     <Card.Image
-      src="https://nextui.org/images/card-example-4.jpeg"
+      src="https://media.wnyc.org/i/320/320/l/80/1/blackbox.jpeg"
       objectFit="cover"
       width="100%"
       height={340}
