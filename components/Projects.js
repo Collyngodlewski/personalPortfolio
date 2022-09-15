@@ -18,34 +18,33 @@ import { ProjectCard6 } from "./Cards/ProjectCard6.js";
 
 function ProjectsPage() {
   return (
-    <Grid.Container gap={1} display="flex" justify="flext-start" wrap="wrap">
-      <Col >
-        <Row display="flex" justify="center"  wrap="wrap">
-          <Grid xs={4} sm={4} >
+    <Grid.Container gap={3} display="flex" justify="center" wrap="wrap">
+      <Col>
+        <Row display="flex" justify="center" wrap="wrap">
+          <Grid xs={8} sm={5} md={3}  >
             <ProjectCard />
           </Grid>
-
-          <Grid xs={4} sm={4} >
+          <Grid xs={8} sm={5} md={3} >
             <ProjectCard2 />
           </Grid>
         </Row>
       </Col>
       <Col>
         <Row justify="center" wrap="wrap">
-          <Grid  xs={4} sm={4} >
+          <Grid xs={8} sm={5} md={3} >
             <ProjectCard3 />
           </Grid>
-          <Grid xs={4} sm={4} >
+          <Grid xs={8} sm={5} md={3}>
             <ProjectCard4 />
           </Grid>
         </Row>
       </Col>
       <Col>
         <Row justify="center" wrap="wrap">
-          <Grid xs={4} sm={4} >
+          <Grid xs={8} sm={5} md={3} >
             <ProjectCard5 />
           </Grid>
-          <Grid xs={4} sm={4} >
+          <Grid xs={8} sm={5} md={3}>
             <ProjectCard6 />
           </Grid>
         </Row>

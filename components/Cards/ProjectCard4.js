@@ -14,7 +14,7 @@ export const ProjectCard4 = () => (
           Anytime Fitness
         </Text>
         <Text h4 color="white">
-          Backend
+          
         </Text>
       </Col>
     </Card.Header>
@@ -28,7 +28,7 @@ export const ProjectCard4 = () => (
         <Card.Footer
       css={{ position: "absolute", zIndex: 1, bottom: -4, background: "white" }}
     >
-      <Row justify="space-evenly">
+      <Row justify="space-evenly" wrap="wrap">
         <Button size="sm" flat color="primary" auto>
         <a href="https://github.com/Collyngodlewski/back-end" target="_blank" rel="noreferrer">Github</a>
         </Button>
