@@ -1,12 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Resume from '../components/Resume'
 
-function Resume() {
+function ResumePage() {
   return (
     <Layout title="Resume">
-    Resume
+    <Resume />
     </Layout>
   )
 }
 
-export default Resume
+export default ResumePage
