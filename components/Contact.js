@@ -84,9 +84,12 @@ const ContactForm = () => {
                     </Text>
                     <Spacer x={2} />
                     <Textarea
+                      id="message"
+                      name="message"
                       placeholder="Please leave a message"
                       clearable
                       bordered
+                      size="lg"
                     />
                   </Row>
                   <ValidationError

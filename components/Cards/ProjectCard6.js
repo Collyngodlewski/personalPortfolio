@@ -8,12 +8,12 @@ export const ProjectCard6 = () => (
     variant="bordered"
     css={{ mw: "400px" }}
   >
-    <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+    <Card.Header css={{background: "white" }}>
       <Col>
-        <Text size={12} weight="bold" transform="uppercase" color="white">
+        <Text size={12} weight="bold" transform="uppercase" color="black">
           Queery
         </Text>
-        <Text h4 color="white">
+        <Text h4 color="black">
           Internship, WIP
         </Text>
       </Col>
@@ -26,7 +26,7 @@ export const ProjectCard6 = () => (
       alt="Card image background"
     />
     <Card.Footer
-      css={{ position: "absolute", zIndex: 1, bottom: -4, background: "white" }}
+      css={{  background: "white" }}
     >
       <Row justify="space-evenly" wrap="wrap">
         <Button size="sm" flat color="primary" auto>

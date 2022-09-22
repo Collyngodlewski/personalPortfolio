@@ -3,37 +3,37 @@ import { Button, Card, Col, Row, Text } from "@nextui-org/react";
 export const ProjectCard = () => (
   <Card
     align="center"
-    isPressable
+    // isPressable
     isHoverable
     variant="bordered"
     css={{ mw: "400px" }}
   >
-    <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
+    <Card.Header css={{ background: "white"  }}>
       <Col>
-        <Text size={12} weight="bold" transform="uppercase" color="white">
+        <Text size={12} weight="bold" transform="uppercase" color="black">
           Potluck Planner
         </Text>
-        <Text h4 color="white">
+        <Text h4 color="black">
           Frontend
         </Text>
       </Col>
     </Card.Header>
     <Card.Image
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg"
+      src="https://i.imgur.com/WDpfgQu.jpg"
       objectFit="fill"
       width="100%"
       height={340}
       alt="Card image background"
     />
     <Card.Footer
-      css={{ position: "absolute", zIndex: 1, bottom: -4, background: "white" }}
+      css={{ background: "white" }}
     >
       <Row justify="space-evenly" wrap="wrap">
         <Button size="sm" flat color="primary" auto>
-        <a href="https://github.com/Collyngodlewski/collycrypto"target="_blank" rel="noreferrer">Github</a>
+        <a href="https://github.com/Build-Week-ft-potluck-planner-8/front-end"target="_blank" rel="noreferrer">Github</a>
         </Button>
         <Button size="sm" color="dark">
-        <a href="https://collycrypto.com" target="_blank" rel="noreferrer">Website</a>
+        <a href="https://front-end-pearl-eight.vercel.app/" target="_blank" rel="noreferrer">Website</a>
         </Button>
       </Row>
     </Card.Footer>
