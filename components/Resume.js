@@ -6,7 +6,7 @@ function Resume() {
     <Container>
       <Row justify="center" >
         <iframe
-          src="https://drive.google.com/file/d/1s5-1UPsUY2vwLIaikQRuaIx7YVWpWbpV/preview"
+          src="https://drive.google.com/file/d/1EtLG-aH-gmrd_2knulpPsh0JvZPunJCl/preview"
           width="640"
           height="900"
           allow="autoplay"
